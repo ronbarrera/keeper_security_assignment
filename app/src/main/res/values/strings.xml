@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Keeper Security Login</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_email">Not a valid email</string>
+    <string name="invalid_password">Password must be at least 6 characters long</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+    <string name="string_email_label">Email</string>
+    <string name="string_master_password_label">Master Password</string>
+    <string name="button_login">Login</string>
+    <string name="string_create_account_label">Don\'t have an account?</string>
+    <string name="string_create_account_button">Create</string>
+    <string name="string_login_label">Login</string>
+    <string name="string_need_help_button">Need Help?</string>
+    <string name="string_sso_login_button">Use Enterprise SSO Login</string>
+    <string name="string_footer">ⓒ 2020 Keeper Security, Inc.</string>
+    <string name="string_sign_out_button">Sign Out</string>
+
+
+</resources>
