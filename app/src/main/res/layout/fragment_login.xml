@@ -92,7 +92,6 @@
 
         </com.google.android.material.textfield.TextInputLayout>
 
-
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_login"
             android:layout_width="0dp"
@@ -140,7 +139,6 @@
             app:layout_constraintTop_toTopOf="@+id/text_create_account_label"
             app:rippleColor="@android:color/transparent" />
 
-
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_need_help"
             style="@style/Widget.MaterialComponents.Button.TextButton"
@@ -154,7 +152,6 @@
             app:layout_constraintStart_toStartOf="@id/text_create_account_label"
             app:layout_constraintTop_toBottomOf="@id/button_create_account"
             app:rippleColor="@android:color/transparent" />
-
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_sso_login"
@@ -170,7 +167,6 @@
             app:layout_constraintTop_toBottomOf="@id/button_need_help"
             app:strokeColor="@color/colorPrimary"
             app:strokeWidth="1dp" />
-
 
         <TextView
             android:id="@+id/text_footer"

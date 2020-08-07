@@ -10,12 +10,12 @@ import java.util.*
 class LoginDataSource {
 
     fun login(email: String, password: String): Result<LoggedInUser> {
-        try {
+        return try {
             // TODO: handle loggedInUser authentication
             val fakeUser = LoggedInUser(UUID.randomUUID().toString(), email)
-            return Result.Success(fakeUser)
+            Result.Success(fakeUser)
         } catch (e: Throwable) {
-            return Result.Error(IOException("Error logging in", e))
+            Result.Error(IOException("Error logging in", e))
         }
     }
 

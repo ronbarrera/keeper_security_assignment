@@ -8,7 +8,6 @@
     android:layout_height="match_parent"
     tools:context=".ui.SplashActivity">
 
-
     <ImageView
         android:id="@+id/image_logo_anim"
         android:layout_width="wrap_content"
