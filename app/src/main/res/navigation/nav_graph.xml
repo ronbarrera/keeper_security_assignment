@@ -3,16 +3,30 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/login_fragment">
+    app:startDestination="@id/home_fragment">
 
     <fragment
         android:id="@+id/login_fragment"
         android:name="com.ronaldbarrera.keepersecuritylogin.ui.login.LoginFragment"
-        android:label="login_fragment"
-        tools:layout="@layout/fragment_login"/>
+        android:label="LoginFragment"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_login_fragment_to_home_fragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/login_fragment"
+            app:popUpToInclusive="true"
+            app:destination="@id/home_fragment"/>
+    </fragment>
     <fragment
         android:id="@+id/home_fragment"
         android:name="com.ronaldbarrera.keepersecuritylogin.ui.home.HomeFragment"
-        android:label="fragment_profile"
-        tools:layout="@layout/fragment_home"/>
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_fragment_to_login_fragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/home_fragment"
+            app:popUpToInclusive="true"
+            app:destination="@id/login_fragment" />
+    </fragment>
 </navigation>

@@ -20,7 +20,8 @@
     <string name="string_need_help_button">Need Help?</string>
     <string name="string_sso_login_button">Use Enterprise SSO Login</string>
     <string name="string_footer">ⓒ 2020 Keeper Security, Inc.</string>
-    <string name="string_sign_out_button">Sign Out</string>
+    <string name="string_log_out_button">Log Out</string>
+    <string name="string_welcome_label">Welcome Back</string>
 
 
 </resources>
